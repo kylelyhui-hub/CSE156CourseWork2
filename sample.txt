@@ -1,0 +1,7 @@
+Ruben Amorim,manager,250000
+Alex Anderson,designer,30000
+Kathy Davidson,actor,100000
+Richard Johnson,designer,80000
+Alicia Gomez,scientist,120000
+Rishi Patel,scientist,75000
+Ronald Trump,architect,110000
