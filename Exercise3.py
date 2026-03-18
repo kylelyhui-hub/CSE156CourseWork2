@@ -1,26 +1,9 @@
-"""
-CE156 Assignment 2 - Exercise 3
-Author: [Your Name]
-Date: March 2026
-Description: Processes university marks using NumPy arrays.
-Calculates weighted totals, applies hurdle rules, and exports sorted results.
-"""
-
 import numpy as np
 import sys
 
 
 def get_grade(r_exam, r_cw, r_total):
-    """
-    Applies the grading rules based on rounded marks.
-
-    Rules:
-    - Fail if rounded Exam or CW Average < 35.
-    - 1st: Total >= 70
-    - 2nd: Total 50-69
-    - 3rd: Total 40-49
-    - Fail: Total < 40
-    """
+    
     if r_exam < 35 or r_cw < 35:
         return "Fail"
 
