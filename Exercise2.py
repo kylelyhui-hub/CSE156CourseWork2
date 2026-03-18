@@ -1,20 +1,5 @@
-"""
-CE156 Assignment 2 - Exercise 2
-Author: [Your Name]
-Date: March 2026
-Description: This script reads student data from a file, stores them as tuples,
-and allows the user to search for students by department in a formatted table.
-"""
-
-
 def display_students_by_dept(student_list, target_dept):
-    """
-    Filters students by department and prints a sorted table of results.
-
-    Args:
-        student_list (list): List of tuples (reg_num, name, department).
-        target_dept (str): The department name to filter by.
-    """
+  
     # Filter the list based on the department (case-insensitive for robustness)
     matches = [s for s in student_list if s[2].strip().upper() == target_dept.strip().upper()]
 
@@ -34,11 +19,9 @@ def display_students_by_dept(student_list, target_dept):
         print(f"{reg_num:<15} | {name:<20}")
     print()
 
-
+# Main program logic
 def main():
-    """
-    Main program logic: File reading and the interactive search loop.
-    """
+
     file_name = input("Enter the name of the student data file: ")
     students = []
 
