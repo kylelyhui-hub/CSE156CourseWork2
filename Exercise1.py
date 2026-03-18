@@ -1,16 +1,8 @@
 from datetime import date
 
-
+  # Function for calculating age
 def calculate_age(birth_date):
-    """
-    Calculates the age in years based on the current date.
 
-    Args:
-        birth_date (date): A datetime.date object representing the birth date.
-
-    Returns:
-        int: The age in years.
-    """
     today = date.today()
 
     # Basic year subtraction
